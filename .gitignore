@@ -1,3 +1,51 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:930071b75cec791ee73eae7a2cfcd7d87b41382cd05c2e40ad15ef8530bf53e2
-size 252
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+UserSettings/
+Assets/AssetStoreTools*
+
+# Asset meta data should only be ignored when the corresponding asset is also ignored
+!/[Aa]ssets/**/*.meta
+
+# Uncomment this line if you wish to ignore the asset store tools plugin
+# /[Aa]ssets/AssetStoreTools*
+
+# Visual Studio
+.vscode/
+.vs/
+*.csproj
+*.sln
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.pidb.meta
+*.unityproj
+
+# Rider
+.idea/
+*.sln.iml
+
+# Mono auto generated files
+mono_crash.*
+
+# Desktop.ini
+Desktop.ini
+
+# Max OS X
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Built Data
+Build/
